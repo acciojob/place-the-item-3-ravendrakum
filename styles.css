@@ -1,7 +1,8 @@
 
 /* Your CSS Code here. */
-#holder{
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:space-evenly;
+#holder {
+  display: flex;          /* Use flexbox */
+  flex-wrap: wrap;        /* Allow items to wrap to the next row */
+  justify-content: space-evenly; /* Distribute items evenly along the row */
+  align-items: flex-start; /* Align items to the start of each row */
 }
